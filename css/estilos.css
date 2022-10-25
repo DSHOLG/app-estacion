@@ -1,0 +1,85 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+
+
+.card{
+	backdrop-filter: blur(5px);
+	height: 165px;
+	width: 300px;
+	border: solid 5px white;
+	margin-bottom: 15px;
+	position: relative;
+	float: left;
+	margin-left: 15px;
+	border-radius: 15px;
+}
+
+.card:hover{
+	transition: 0.25s;
+	text-shadow: 1px 1px 1px #FF00B3,
+				 1px 1px 2px #FF00B3,
+				 1px 1px 3px #FF00B3;
+	box-shadow:  1px 1px 1px #FF00B3,
+				 2px 2px 2px #FF00B3,
+				 3px 3px 3px #FF00B3,
+				 4px 4px 4px #FF00B3,
+				 5px 5px 5px #FF00B3,
+				-1px -1px 1px #FF00B3,
+				-2px -2px 2px #FF00B3,
+				-3px -3px 3px #FF00B3,
+				-4px -4px 4px #FF00B3,
+				-5px -5px 5px #FF00B3;
+}
+
+.centrado{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.card__apodo{
+	text-align: center;
+	color: white;
+	font-family: Arial Black;
+	font-size: 18pt;
+	margin-top: 15px;
+}
+
+.card__ubicacion{
+	text-align: center;
+	color: white;
+	font-family: Arial Black;
+	font-size: 14pt;
+}
+
+.card__visitas{
+	text-align: center;
+	color: white;
+	font-family: Arial Black;
+	font-size: 13pt;
+}
+
+h1{
+	padding: 15px;
+	margin: 15px;
+	font-size: 30pt;
+	font-family: Arial Black;
+	color: white;
+	text-shadow: 1px 1px 1px #FF00B3,
+				 1px 1px 2px #FF00B3,
+				 1px 1px 3px #FF00B3;
+	border: solid 5px white;
+		box-shadow:  1px 1px 1px #FF00B3,
+				 2px 2px 2px #FF00B3,
+				 3px 3px 3px #FF00B3,
+				 4px 4px 4px #FF00B3,
+				 5px 5px 5px #FF00B3,
+				-1px -1px 1px #FF00B3,
+				-2px -2px 2px #FF00B3,
+				-3px -3px 3px #FF00B3,
+				-4px -4px 4px #FF00B3,
+				-5px -5px 5px #FF00B3;
+}
